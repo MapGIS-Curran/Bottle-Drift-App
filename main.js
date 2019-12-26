@@ -28,7 +28,7 @@ require([
   Polyline,
   domConstruct
 ) {
-  // gp service endpoint
+  // API service endpoint
   var gpService =
     "http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_Currents_World/GPServer/MessageInABottle";
 
@@ -74,7 +74,7 @@ require([
     width: 2
   });
 
-  // Instantiate GP Service
+  // Instantiate Service
   var gp = new Geoprocessor({
     url: gpService
   });
